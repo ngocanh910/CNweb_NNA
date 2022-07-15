@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="css3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css3/main.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css3/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css3/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="css3/css/owl.theme.default.min.css">
+    
+    <title>Bài tập lớn Nguyễn Ngọc Anh</title>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <!--Header-->
+        <div class="container">
+            <div class="header-menu">
+                <div class="header">
+                    <div class="logo"><a href="http://localhost/BTL/BTL.html"><img id="logo" src="images/logo.png" alt="logo"></a></div>
+                    <div class="search-box"><input id="search-bar" type="text" placeholder="Tìm kiếm sản phẩm">
+                        <button id="btn" type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                    <div class="phone">HOTLINE:<a href="tel:+84938381513">(+84) 938.38.15.13</a></div>
+                    <div class="account"> <a href="http://localhost/BTL/login.php">TÀI KHOẢN</a> 
+                    </div>
+                    <div class="cart">GIỎ HÀNG</div>
+                    <!-- mobile menu -->
+                    <div class="topnav" id="myTopnav">
+                    	<a href="#"></a> 
+					  <a href="http://localhost/BTL/BTL.html" >TRANG CHỦ</a>
+					  <a href="http://localhost/BTL/chuyen-muc.php?id=1">PHÒNG KHÁCH</a>
+					  <a href="http://localhost/BTL/chuyen-muc.php?id=2">PHÒNG NGỦ</a>
+					  <a href="http://localhost/BTL/chuyen-muc.php?id=3">PHÒNG ĂN</a>
+					  <a href="http://localhost/BTL/chuyen-muc.php?id=4">PHÒNG HỌC/LÀM VIỆC</a>
+					  <a href="http://localhost/BTL/chuyen-muc.php?id=5">SẢN PHẨM KHÁC</a>
+					  <a href="http://localhost/BTL/blogs.php?id=6">KHUYẾN MÃI</a>
+					  <a href="http://localhost/BTL/blogs.php?id=7">TIN TỨC</a>
+					  <a href="tel:+84938381513">LIÊN HỆ</a>
+					  <a href="http://localhost/BTL/login.php">TÀI KHOẢN</a>
+					  <a href="#">GIỎ HÀNG</a>
+					  <a href="javascript:void(0);" class="icon" onclick="clickIcon()">
+					    <i class="fa fa-bars"></i>
+					  </a>
+					</div>
+					<div class="search-bar-mobile">
+						<input id="search-bar-mobile" type="text" name="" placeholder="Tìm kiếm sản phẩm">
+					</div>
+                </div>
+                <!--Menu-->
+                
+                <div class="menu">
+                    <nav>
+                        <ul class="big-menu">
+                            <li><a href="http://localhost/BTL/BTL.html">TRANG CHỦ</a></li>
+                            <li><a href="http://localhost/BTL/chuyen-muc.php?id=1">PHÒNG KHÁCH <img src="images/angledownicon.png"></a>
+                                <ul class="small-menu">
+                                    <li><a href="#"><img src="images/arrowicon.png"> Sofa</a></li>
+                                    <li><a href="#"><img src="images/arrowicon.png"> Bàn trà</a></li>
+                                    <li><a href="#"><img src="images/arrowicon.png"> Tủ trang trí</a></li>
+                                    <li><a href="#"><img src="images/arrowicon.png"> Kệ trang trí</a></li>
+                                    <li><a href="#"><img src="images/arrowicon.png"> Kệ tivi</a></li>
+                                </ul>
+                            </li>   
+                            <li><a href="http://localhost/BTL/chuyen-muc.php?id=2">PHÒNG NGỦ <img src="images/angledownicon.png"></a>
+                                <ul class="small-menu">
+                                    <li><a href="#"><img src="images/arrowicon.png"> Giường ngủ</a></li>
+                                    <li><a href="#"><img src="images/arrowicon.png"> Bàn trang điểm</a></li>
+                                    <li><a href="#"><img src="images/arrowicon.png"> Tủ quần áo</a></li>
+                                    <li><a href="#"><img src="images/arrowicon.png"> Tủ đầu giường</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="http://localhost/BTL/chuyen-muc.php?id=3">PHÒNG ĂN <img src="images/angledownicon.png"></a>
+                                <ul class="small-menu">
+                                    <li><a href="#"><img src="images/arrowicon.png"> Bàn ăn</a></li>
+                                    <li><a href="#"><img src="images/arrowicon.png"> Bàn ăn trẻ em</a></li>
+                                    <li><a href="#"><img src="images/arrowicon.png"> Tủ bếp</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="http://localhost/BTL/chuyen-muc.php?id=4">PHÒNG HỌC/LÀM VIỆC <img src="images/angledownicon.png"></a>
+                                <ul class="small-menu">
+                                    <li><a href="#"><img src="images/arrowicon.png"> Bộ bàn học / làm việc</a></li>
+                                    <li><a href="#"><img src="images/arrowicon.png"> Kệ sách</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="http://localhost/BTL/chuyen-muc.php?id=5">SẢN PHẨM KHÁC <img src="images/angledownicon.png"></a>
+                                <ul class="small-menu">
+                                    <li><a href="#"><img src="images/arrowicon.png"> Giá treo quần áo</a></li>
+                                    <li><a href="#"><img src="images/arrowicon.png"> Gối ngủ</a></li>
+                                    <li><a href="#"><img src="images/arrowicon.png"> Cube bookcase</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="http://localhost/BTL/blogs.php?id=6">KHUYẾN MÃI</a></li>
+                            <li><a href="http://localhost/BTL/blogs.php?id=7">TIN TỨC <img src="images/angledownicon.png"></i></a>
+                                <ul class="small-menu">
+                                    <li><a href="#"><img src="images/arrowicon.png"> Tin tức nội thất</a></li>
+                                <li><a href="#"><img src="images/arrowicon.png"> Cẩm nang giải trí</a></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <br>
+        <!--Slideshow image-->
+        <div class="container-fluid">
+            <div class="owl-carousel owl-theme" style="overflow: hidden;">
+                
+                <div class="item">
+                    <a href="#"><img src="images/slideshow_7.png"></a>
+                </div>
+                
+                <div class="item">
+                    <a href="#"><img src="images/slideshow_8.png"></a>
+                </div>
+                
+                <div class="item">
+                    <a href="#"><img src="images/slideshow_9.png"></a>
+                </div>
+                
+                <div class="item">
+                    <a href="#"><img src="images/slideshow_10.png"></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            
+            <div class="list-product">
+                <h2><b>DANH MỤC NỔI BẬT</b></h2>
+                <br>
+                <p>Danh mục sản phẩm được bán tốt nhất trong tháng và được lựa chọn nhiều nhất</p>
+                    <div class="product">
+                        <div class="row">
+
+                            <div class="col-sm">
+                                <a  href="#" ><img src="images/x1.jpg" alt="" class="img" id="img-1"><br>SOFA</a>
+                            </div>
+                            <div class="col-sm">
+                                <a  href="#"><img src="images/x2.jpg" alt="" class="img"><br>GIƯỜNG NGỦ</a>
+                            </div>
+                            <div class="col-sm">
+                                <a  href="#"><img src="images/x3.jpg" alt="" class="img"><br>BÀN ĂN</a>
+                            </div>
+                            <div class="col-sm">
+                                <a  href="#"><img src="images/x4.jpg" alt="" class="img"><br>BÀN LÀM VIỆC</a>
+                            </div>
+                            <div class="col-sm">
+                                <a  href="#"><img src="images/x5.jpg" alt="" class="img" id="img-1"><br>BÀN TRÀ</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm" >
+                                <a  href="#"><img src="images/x6.jpg" alt="" class="img" id="img-1"><br>BÀN TRANG ĐIỂM</a>
+                            </div>
+                            <div class="col-sm">
+                                <a  href="#"><img src="images/x7.jpg" alt="" class="img"><br>TỦ TRANG TRÍ</a>
+                            </div>
+                            <div class="col-sm">
+                                <a  href="#"><img src="images/x8.jpg" alt="" class="img"><br>KỆ TRANG TRÍ</a>
+                            </div>
+                            <div class="col-sm">
+                                <a  href="#"><img src="images/x9.jpg" alt="" class="img"><br>TỦ ĐẦU GIƯỜNG</a>
+                            </div>
+                            <div class="col-sm">
+                                <a  href="#"><img src="images/x10.jpg" alt="" class="img" id ="img-1"><br>GIÁ TREO QUẦN ÁO</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+
+
+            <div class="container">
+                        <img id="map2"src="images/map2.gif" alt="#">
+            </div>
+            <div class="container">
+                <h2><b>NỘI THẤT NỔI BẬT</b></h2><br>
+                <div class="products">
+                    <div class="row">
+                        <div class="col-sm">
+                            <button class="butt" >SOFA</button>
+                        </div>
+                    
+                    
+                        <div class="col-sm">
+                            <button class="butt" >GIƯỜNG</button>
+                        </div>
+                    
+                     
+                        <div class="col-sm">
+                            <button class="butt" >BÀN ĂN</button>
+                        </div>
+                   
+                     
+                        <div class="col-sm">
+                            <button class="butt" >BÀN TRÀ</button>
+                        </div>
+                    </div>
+                </div>
+            
+
+            
+                <div class="row">
+                    
+
+                    <div class="col-sm">
+                        <div class="imagewrap">
+                            <a href="#"><img src="images/1.jpg"><br>SF316 - GHẾ SOFA DA 4 CHỖ NGỒI<br><br><span>28,808.000 ₫</span></a>
+
+                                        <div class="btn-group" >
+                                          <button type="button" class="btn1"><span><i class="fas fa-search-plus" ></i></span></button>
+                                          <button type="button" class="btn1" id="btn1"><span>Mua ngay</span></button>
+                                          <button type="button" class="btn1"><span><i class="fas fa-cart-plus"></i></span></button>
+                                        </div>
+
+                        </div>
+                    </div>
+            
+
+                    <div class="col-sm">
+                        <div class="imagewrap">
+                            <a href="#"><img src="images/2.jpg" ><br>SF305 - GHẾ SOFA DA 4 CHỖ NGỒI<br><br><span>24,488,000 ₫</span></a>
+
+                                        <div class="btn-group" >
+                                          <button type="button" class="btn1" ><span><i class="fas fa-search-plus" ></i></span></button>
+                                          <button type="button" class="btn1" id="btn1"><span>Mua ngay</span></button>
+                                          <button type="button" class="btn1" ><span><i class="fas fa-cart-plus"></i></span></button>
+                                        </div>
+                        </div>
+                    </div>
+
+
+                     <div class="col-sm">
+                        <div class="imagewrap">
+                            <a href="#"><img src="images/3.jpg" ><br>SF301A - GHẾ SOFA DA 3 CHỖ NGỒI<br><br><span>15,700,000 ₫</span></a>
+
+                                        <div class="btn-group" >
+                                          <button type="button" class="btn1"><span><i class="fas fa-search-plus" ></i></span></button>
+                                          <button type="button" class="btn1" id="btn1"><span>Mua ngay</span></button>
+                                          <button type="button" class="btn1"><span><i class="fas fa-cart-plus"></i></span></button>
+                                        </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm">
+                        <div class="imagewrap">
+                            <a href="#"><img src="images/4.jpg" ><br>1710 - GHẾ SOFA THƯ GIÃN DA PU CHỈNH ĐIỆN<br><span>9,231,000 ₫</span></a>
+
+                                        <div class="btn-group" >
+                                          <button type="button" class="btn1"><span><i class="fas fa-search-plus" ></i></span></button>
+                                          <button type="button" class="btn1" id="btn1"><span>Mua ngay</span></button>
+                                          <button type="button" class="btn1"><span><i class="fas fa-cart-plus"></i></span></button>
+                                        </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+            <div class="container-fluid">
+                <div class="one-line">
+                    <a href="#">XEM TẤT CẢ</a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-sm-12">
+                    <a href="#"><img src="images/sale-banner.gif"></a>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="heading"><h2><b>NỘI THẤT BÁN CHẠY</b></h2></div>
+                <div class="tt-wrap">
+                    <div class="row">
+                            <div class="col-sm-3">
+                                <a href="#"><img src="images/tt1.jpg" class="tt-image"><br>TT001 - BÀN TRÀ GỖ CAO SU KIỂU NHẬT<br><span>749,000₫</span></a>
+                            </div>
+                            <div class="col-sm-3">
+                                <a href="#"><img src="images/tt2.jpg" class="tt-image"><br>SF309 - GHẾ SOFA DA 4 CHỖ NGỒI<br><span>24,488,000₫</span></a>
+                            </div>
+                            <div class="col-sm-3">
+                                <a href="#"><img src="images/tt3.jpg" class="tt-image"><br>SF305 - GHẾ SOFA DA 4 CHỖ NGỒI<br><span>24,488,000₫</span></a>
+                            </div>
+                            <div class="col-sm-3">
+                                <a href="#"><img src="images/tt4.jpg"class="tt-image"><br>SF302A - GHẾ SOFA DA 3 CHỖ NGỒI<br><span>15,700,000₫</span></a>
+                            </div>  
+                            
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <a href="#"><img src="images/tt5.jpg"class="tt-image"><br>MC001 - BỘ BÀN ĂN MARCEL 4 GHẾ ĐƠN<br><span>13,655,000₫</span></a>
+                        </div>
+                         <div class="col-sm-3">
+                            <a href="#"><img src="images/tt6.jpg"class="tt-image"><br>DC001 - GHẾ TRANG ĐIỂM DA PU<br><span>677,000₫</span></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="#"><img src="images/tt7.jpg"class="tt-image"><br>CS1802 - GHẾ SOFA THƯ GIÃN CHỈNH ĐIỆN 4 CHỖ<br><span>27,285,000₫</span></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="#"><img src="images/tt8.jpg"class="tt-image"><br>CS1603 - GHẾ SOFA THƯ GIÃN CHỈNH ĐIỆN<br><span>22,199,000₫</span></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <a href="#"><img src="images/tt9.jpg"class="tt-image"><br>CC004 - BỘ BÀN ĂN CHOICE 6 NGƯỜI<br><span>17,508,000₫</span></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="#"><img src="images/4.jpg"class="tt-image"><br>1710 - GHẾ SOFA THƯ GIÃN DA PU CHỈNH ĐIỆN<br><span>9,231,000₫</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container-fluid">
+                <div class="one-line">
+                    <a href="#">XEM TẤT CẢ</a>
+                </div>
+            </div>
+
+             <div class="container">
+                <div class="col-sm-12">
+                    <a href="#"><img src="images/banner0.jpg"></a>
+                </div>
+            </div>
+            
+            <div class="container-fluid">
+                <div class="heading"><h2><b>NỘI THẤT TIÊU BIỂU</b></h2></div>
+                <div class="one-line">
+                    <a href="#">XEM TẤT CẢ</a>
+                </div>
+                <div class="container">
+                <div class="col-sm-12">
+                    <a href="#"><img src="images/banner1.jpg"></a>
+                </div>
+            </div>
+            </div>
+            <div class="container-fluid">
+                <div class="heading"><h2><b>CẨM NANG TRANG TRÍ</b></h2></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="info-wrapper">
+                                <div class="info-img">
+                                    <a href="#"><img src="images/info_img1.png" class="img-info1"></a>
+                                    <div class="info">
+                                        <div class="date-time">
+                                            <span><b>06</b></span>
+                                            <br><span>Thg 10</span>
+                                        </div>
+                                        <div class="info-link">
+                                            <a href="#">KÍCH THƯỚC SOFA NÀO PHÙ HỢP NHẤT VỚI BẠN ?</a>
+                                        </div>
+                                        <div class="info-text">
+                                            <p>Bạn định sử dụng ghế sofa như thế nào? Điều này sẽ hoàn toàn giúp ích trong việc xác định kích thước. Nếu đó là phòng khách hoặc...</p>
+                                        </div>
+                                    </div>
+                                    <div class="article-info">
+                                        <div class="article-author">
+                                            <i class="fas fa-user"></i>Dongsuh Furniture
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-comments"></i>
+                                        </div>
+                                        <div class="more">
+                                            <a href="#">Xem thêm<i class="fas fa-angle-double-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="info-wrapper">
+                                <div class="info-img">
+                                    <a href="#"><img src="images/info_img2.jpg" class="img-info2"></a>
+                                    <div class="info">
+                                        <div class="date-time">
+                                            <span><b>27</b></span>
+                                            <br><span>Thg 9</span>
+                                        </div>
+                                        <div class="info-link">
+                                            <a href="#">CÁCH CHỌN NỘI THẤT PHÒNG KHÁCH BIỆT THỰ - ĐƠN GIẢN BẤT NGỜ ?</a>
+                                        </div>
+                                        <div class="info-text">
+                                            <p>Chọn nội thất phòng khách biệt thự rất quan trọng vì đây được coi là bộ mặt của một ngôi nhà nhất là các căn biệt thự, đây không còn là nơi ...</p>
+                                        </div>
+                                    </div>
+                                    <div class="article-info">
+                                        <div class="article-author">
+                                            <i class="fas fa-user"></i>Dongsuh Furniture
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-comments"></i>
+                                        </div>
+                                        <div class="more">
+                                            <a href="#">Xem thêm<i class="fas fa-angle-double-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="info-wrapper">
+                                <div class="info-img">
+                                    <a href="#"><img src="images/info_img3.jpg" class="img-info2"></a>
+                                    <div class="info">
+                                        <div class="date-time">
+                                            <span><b>27</b></span>
+                                            <br><span>Thg 9</span>
+                                        </div>
+                                        <div class="info-link">
+                                            <a href="#">MUA NỘI THẤT ONLINE, NHỮNG ƯU VÀ NHƯỢC ĐIỂM MÀ BẠN CẦN BIẾT </a>
+                                        </div>
+                                        <div class="info-text">
+                                            <p>Mua hàng online ngày càng trở nên phổ biến trong thời buổi hiện nay, không chỉ những món đồ đơn giản như quần áo, mỹ phẩm, các món hàng có kích thước lớn như nội thất cũng ngày càng trở nên phổ biến...</p>
+                                        </div>
+                                    </div>
+                                    <div class="article-info">
+                                        <div class="article-author">
+                                            <i class="fas fa-user"></i>Dongsuh Furniture
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-comments"></i>
+                                        </div>
+                                        <div class="more">
+                                            <a href="#">Xem thêm<i class="fas fa-angle-double-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <a href="#"><img src="images/brand_img1.png" class="brand-img"></a>
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="#"><img src="images/brand_img3.png" class="brand-img"></a>
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="#"><img src="images/brand_img4.png" class="brand-img"></a>
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="#"><img src="images/brand_img5.png" class="brand-img"></a>
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="#"><img src="images/brand_img6.png" class="brand-img"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+         </div>
+        <div class="web-footer">
+            <div class="container-fluid">
+                <div class="footer-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="theme-font">
+                                    <div class="logo1"><a href=""><img id="logo1" src="images/logo.png" alt="logo"></a></div>
+                                    <br><br>
+                                    <div class="title">
+                                        Nội thất Hàn Quốc Online Số 1 Tại Việt Nam.
+                                    </div>
+                                    <div class="location">
+                                        <i class="fas fa-map-marker-alt"></i>  94-96 Nguyễn Văn Trỗi, P.8, Q.Phú Nhuận, TP.HCM
+                                    </div>
+                                    <div class="phone1">
+                                        <a href="tel:+84938381513"><i class="fas fa-phone-alt"></i>  (+84) 938.38.15.13</a>
+                                    </div>
+                                    <br>
+                                    <div class="mail">
+                                        <a href=""><i class="fas fa-envelope" ></i>  support@dongsuh.com.vn</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-2" id="info">
+                                <h3>CHÍNH SÁCH</h3>
+                                <div class="info-footer">
+                                    <a href="#">Về chúng tôi</a><br>
+                                    <a href="#">Thông tin liên hệ</a><br>
+                                    <a href="#">Hướng dẫn mua hàng</a><br>
+                                    <a href="#">Sản phẩm khuyến mãi</a>
+                                </div>
+                            </div>
+
+
+                            <div class="col-sm-2" id="info">
+                                <h3>CHÍNH SÁCH</h3>
+                                <div class="info-footer">
+                                    <a href="#">Chính sách thanh toán</a><br>
+                                    <a href="#">CS bảo hành & đổi trả</a><br>
+                                    <a href="#">Chính sách vận chuyển</a><br>
+                                    <a href="#">Chính sách bảo mật</a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <a href="https://www.facebook.com/dongsuhvn/"><img src="images/fb.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="footer-subscribe">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="social-media">
+                                        <a href="#" class="social-icon" ><i class="fab fa-facebook-f" id="icon"></i></a>
+                                        <a href="#" class="social-icon" ><i class="fab fa-twitter" id="icon"></i></a>
+                                        <a href="#" class="social-icon" ><i class="fab fa-youtube" id="icon"></i></a>
+                                        <a href="#" class="social-icon" ><i class="fab fa-instagram" id="icon"></i></a>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="email-input-group">
+                                        <input type="" name="" id="email-input" placeholder="Nhập email của bạn">
+                                        <button type="submit" class="subscribe-btn"><span>Đăng ký</span></button>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascript/js/owl.carousel.js"></script>
+    <script>
+        function clickIcon() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+    <script>
+            $(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true
+              });
+            })
+    </script>
+
+</body>
+</html> 

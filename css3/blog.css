@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+b {
+    color: #000000;
+    font-size: 17px;
+}
+.heading-product{
+    
+    padding: 250px 0px 80px 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.heading-option span{
+    color: #2a3167;
+    font-size: 18;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+#footer{
+    position: relative;
+    bottom: 0;
+    
+}

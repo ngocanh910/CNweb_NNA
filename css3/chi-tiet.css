@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.col-sm-6{
+    padding-top: 60px;
+    
+}
+h1{
+   
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 60px;
+}
+.product_image{
+    width: 100%;
+    height: auto;
+}
+.text_price{
+    color: red;
+    font-size: 20px;
+    font-weight: 1000;
+    padding-left: 62px;
+}
+.description{
+    padding-left: 62px;
+    font-size: 16px;
+}
+.buy-btn{
+    padding-left: 20%;
+    padding-top: 20%;
+}
+.buy-btn a:link, .buy-btn a:visited{
+    background-color: orange;
+    color: white;
+    padding: 15px 170px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+.wrp{
+    padding:6px 0px 40px 0px;
+    
+}
+.web-footer{
+    position: relative;
+    bottom: 0;
+}
+footer{
+    margin: 50px 0;
+}
+
+    
